@@ -13,29 +13,21 @@ body h1 {
   padding: 20px;
 }
 
-body .col {
-  display: flex;
-  justify-content: center;
-}
-
-body .col .card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body .card {
   width: 250px;
   height: 300px;
   margin: 10px;
 }
 
-body .col .card > .title,
-body .col .card .original-title,
-body .col .card div {
+body .card > .title,
+body .card .original-title,
+body .card div {
   padding: 0 20px;
   padding-bottom: 20px;
   text-align: center;
 }
 
-body .col .card .title {
+body .card .title {
   font-size: 25px;
 }
 

@@ -2,7 +2,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-
     padding: 20px;
     background-color: #333;
 
@@ -10,30 +9,22 @@ body {
         color:indianred;
         padding: 20px;
     }
-
-    .col {
-        display: flex;
-        justify-content: center;
-
-        .card {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 250px;
-            height: 300px;
-            margin: 10px;
-        
-            > .title, 
-            .original-title, 
-            div {
-                padding: 0 20px;
-                padding-bottom: 20px;
-                text-align: center;
-            }
-        
-            .title {
-                font-size: 25px;
-            }
+    
+    .card {
+        width: 250px;
+        height: 300px;
+        margin: 10px;
+    
+        > .title, 
+        .original-title, 
+        div {
+            padding: 0 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+    
+        .title {
+            font-size: 25px;
         }
     }
 }
